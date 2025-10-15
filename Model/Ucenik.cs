@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Knjiznica.Model
 {
-    public class Ucenik : IComparable 
+    public class Ucenik : IComparable
     {
         public string OIB { get; set; }
 
@@ -19,6 +19,22 @@ namespace Knjiznica.Model
         
         public int Razred { get; set; }
 
+        public override string ToString()
+        {
+            return this.Prezime + " " + this.Ime + ", " + this.Razred;
+        }
 
+
+        public int CompareTo(object obj)
+        {
+            int rezultat = this.Prezime.CompareTo(((Ucenik)obj).Prezime);
+
+            if(rezultat==0)
+            {
+                rezultat = this.Ime.CompareTo(((Ucenik)obj).Ime);
+
+            }
+            return rezultat;
+        }
     }
 }
