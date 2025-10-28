@@ -49,6 +49,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forme\DetaljiUcenika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DetaljiUcenika.Designer.cs">
+      <DependentUpon>DetaljiUcenika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\Posudbe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\Posudbe.Designer.cs">
+      <DependentUpon>Posudbe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forme\Ucenici.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +73,9 @@
     <Compile Include="Model\Ucenik.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forme\Posudbe.resx">
+      <DependentUpon>Posudbe.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forme\Ucenici.resx">
       <DependentUpon>Ucenici.cs</DependentUpon>
     </EmbeddedResource>
