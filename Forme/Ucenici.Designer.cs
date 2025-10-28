@@ -91,6 +91,7 @@
             this.Controls.Add(this.lbUcenici);
             this.Name = "Ucenici";
             this.Text = "Ucenici";
+            this.Load += new System.EventHandler(this.Ucenici_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

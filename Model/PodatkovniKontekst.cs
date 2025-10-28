@@ -48,6 +48,18 @@ namespace Knjiznica.Model
             return rezultat;
         }
 
+        public void spremiUcenike()
+        {
+            using (StreamWriter sw = new StreamWriter(datUcenici))
+            {
+                foreach(Ucenik trenutniUcenik in this.ucenici)
+                {
+                    sw.WriteLine("{0}|{1}|{2}|{3}|{4}|{5}", trenutniUcenik.OIB, trenutniUcenik.Ime, trenutniUcenik.Prezime, trenutniUcenik.Adresa,
+                    trenutniUcenik.Telefon, trenutniUcenik.Razred);
+                }
+            }
+        }
+
 
 
     }
