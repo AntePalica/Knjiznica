@@ -10,3 +10,4 @@ C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.csproj.GenerateResource.cach
 C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.csproj.CoreCompileInputs.cache
 C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.exe
 C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.pdb
+C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.Forme.DetaljiUcenika.resources

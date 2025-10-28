@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Windows.Forms;
 
@@ -21,11 +22,43 @@ namespace Knjiznica.Forme
 
         private void Ucenici_Load(object sender, EventArgs e)
         {
-            lbUcenici.Items.Clear();
-            this.kontekst.ucenici.Sort();
-            foreach(Ucenik trenutniUcenik in this.kontekst.ucenici)
+            OsvjeziUcenike();
+        }
+        private void OsvjeziUcenike()
+        {
+            Helper.PrikaziListuULB<Ucenik>(this.kontekst.ucenici, lbUcenici);
+            
+        }
+
+        private void btnDodaj_Click(object sender, EventArgs e)
+        {
+            DetaljiUcenika detaljiucenika = new DetaljiUcenika();
+
+            DialogResult dr = detaljiucenika.ShowDialog();
+
+            if(dr == DialogResult.OK)
             {
-                lbUcenici.Items.Add(trenutniUcenik);
+                this.kontekst.DodajUcenika(detaljiucenika.Ucenik);
+                OsvjeziUcenike();
+            }
+        }
+
+        private void btnUredi_Click(object sender, EventArgs e)
+        {
+            if(lbUcenici.SelectedItems == null)
+            {
+                MessageBox.Show("Molim te odaberi uceniak");
+            }
+            else
+            {
+                DetaljiUcenika detaljiucenika = new DetaljiUcenika();
+                detaljiucenika.Ucenik = (Ucenik)lbUcenici.SelectedItem;
+
+                if(detaljiucenika.ShowDialog()== DialogResult.OK)
+                {
+                    this.kontekst.spremiUcenike();
+                    OsvjeziUcenike();
+                }
             }
         }
     }

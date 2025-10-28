@@ -19,6 +19,12 @@ namespace Knjiznica.Model
             ucenici = UcitajUcenike();
         }
 
+        public void DodajUcenika(Ucenik ucenik)
+        {
+            this.ucenici.Add(ucenik);
+            spremiUcenike();
+        }
+
         public List<Ucenik> UcitajUcenike()
         {
             List<Ucenik> rezultat = new List<Ucenik>();

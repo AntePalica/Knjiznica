@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Dino\\Desktop\\Knjiznica\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|c:\\users\\dino\\desktop\\knjiznica\\forme\\detaljiucenika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|solutionrelative:forme\\detaljiucenika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|c:\\users\\dino\\desktop\\knjiznica\\forme\\detaljiucenika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|solutionrelative:forme\\detaljiucenika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|c:\\users\\dino\\desktop\\knjiznica\\forme\\ucenici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|solutionrelative:forme\\ucenici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,18 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|c:\\users\\dino\\desktop\\knjiznica\\model\\podatkovnikontekst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|solutionrelative:model\\podatkovnikontekst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|c:\\users\\dino\\desktop\\knjiznica\\forme\\knjiznica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|solutionrelative:forme\\knjiznica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|c:\\users\\dino\\desktop\\knjiznica\\forme\\knjiznica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|solutionrelative:forme\\knjiznica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|c:\\users\\dino\\desktop\\knjiznica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,78 +34,65 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ucenici.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\Ucenici.cs",
-              "RelativeDocumentMoniker": "Forme\\Ucenici.cs",
-              "ToolTip": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\Ucenici.cs [Design]",
-              "RelativeToolTip": "Forme\\Ucenici.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "PodatkovniKontekst.cs",
+              "DocumentMoniker": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Model\\PodatkovniKontekst.cs",
+              "RelativeDocumentMoniker": "Model\\PodatkovniKontekst.cs",
+              "ToolTip": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Model\\PodatkovniKontekst.cs*",
+              "RelativeToolTip": "Model\\PodatkovniKontekst.cs*",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwBgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T22:46:23.628Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-28T23:16:27.419Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DetaljiUcenika.cs",
+              "DocumentMoniker": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\DetaljiUcenika.cs",
+              "RelativeDocumentMoniker": "Forme\\DetaljiUcenika.cs",
+              "ToolTip": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\DetaljiUcenika.cs*",
+              "RelativeToolTip": "Forme\\DetaljiUcenika.cs*",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvy4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T23:08:37.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DetaljiUcenika.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\DetaljiUcenika.cs",
+              "RelativeDocumentMoniker": "Forme\\DetaljiUcenika.cs",
+              "ToolTip": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\DetaljiUcenika.cs [Design]*",
+              "RelativeToolTip": "Forme\\DetaljiUcenika.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T23:08:35.473Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Ucenici.cs",
               "DocumentMoniker": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\Ucenici.cs",
               "RelativeDocumentMoniker": "Forme\\Ucenici.cs",
-              "ToolTip": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\Ucenici.cs",
-              "RelativeToolTip": "Forme\\Ucenici.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAASwBsAAAA0AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\Ucenici.cs*",
+              "RelativeToolTip": "Forme\\Ucenici.cs*",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAhwDsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T22:39:22.16Z",
+              "WhenOpened": "2025-10-28T23:05:52.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Knjiznica.cs",
-              "DocumentMoniker": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\Knjiznica.cs",
-              "RelativeDocumentMoniker": "Forme\\Knjiznica.cs",
-              "ToolTip": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\Knjiznica.cs",
-              "RelativeToolTip": "Forme\\Knjiznica.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAADgvxsAAAAuAAAAAAAAAA==",
+              "Title": "Ucenici.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\Ucenici.cs",
+              "RelativeDocumentMoniker": "Forme\\Ucenici.cs",
+              "ToolTip": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\Ucenici.cs [Design]*",
+              "RelativeToolTip": "Forme\\Ucenici.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T22:35:44.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T22:35:28.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PodatkovniKontekst.cs",
-              "DocumentMoniker": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Model\\PodatkovniKontekst.cs",
-              "RelativeDocumentMoniker": "Model\\PodatkovniKontekst.cs",
-              "ToolTip": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Model\\PodatkovniKontekst.cs",
-              "RelativeToolTip": "Model\\PodatkovniKontekst.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T22:30:11.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Knjiznica.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\Knjiznica.cs",
-              "RelativeDocumentMoniker": "Forme\\Knjiznica.cs",
-              "ToolTip": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\Knjiznica.cs [Design]",
-              "RelativeToolTip": "Forme\\Knjiznica.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T21:55:57.392Z",
+              "WhenOpened": "2025-10-28T23:05:27.177Z",
               "EditorCaption": " [Design]"
             }
           ]

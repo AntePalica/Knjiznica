@@ -156,6 +156,7 @@
             this.btnSave.TabIndex = 12;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // DetaljiUcenika
             // 
@@ -177,6 +178,7 @@
             this.Controls.Add(this.label1);
             this.Name = "DetaljiUcenika";
             this.Text = "Detalji Učenika";
+            this.Load += new System.EventHandler(this.DetaljiUcenika_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
