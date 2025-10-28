@@ -1,0 +1,12 @@
+C:\Users\Dino\Desktop\Knjiznica\bin\Debug\Knjiznica.exe
+C:\Users\Dino\Desktop\Knjiznica\bin\Debug\Knjiznica.pdb
+C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.csproj.AssemblyReference.cache
+C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.Forme.Knjige.resources
+C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.Forme.frmKnjiznica.resources
+C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.Forme.Posudbe.resources
+C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.Forme.Ucenici.resources
+C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.Properties.Resources.resources
+C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.csproj.GenerateResource.cache
+C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.csproj.CoreCompileInputs.cache
+C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.exe
+C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.pdb

@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dino\\Desktop\\Nova mapa\\Knjiznica\\",
+  "WorkspaceRootPath": "C:\\Users\\Dino\\Desktop\\Knjiznica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|c:\\users\\dino\\desktop\\nova mapa\\knjiznica\\forme\\posudbe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|solutionrelative:forme\\posudbe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|C:\\Users\\Dino\\Desktop\\Nova mapa\\Knjiznica\\model\\posudba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|solutionrelative:model\\posudba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|C:\\Users\\Dino\\Desktop\\Knjiznica\\forme\\knjiznica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|solutionrelative:forme\\knjiznica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Posudbe.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dino\\Desktop\\Nova mapa\\Knjiznica\\Forme\\Posudbe.cs",
-              "RelativeDocumentMoniker": "Forme\\Posudbe.cs",
-              "ToolTip": "C:\\Users\\Dino\\Desktop\\Nova mapa\\Knjiznica\\Forme\\Posudbe.cs [Design]",
-              "RelativeToolTip": "Forme\\Posudbe.cs [Design]",
+              "Title": "Knjiznica.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\Knjiznica.cs",
+              "RelativeDocumentMoniker": "Forme\\Knjiznica.cs",
+              "ToolTip": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\Knjiznica.cs [Design]",
+              "RelativeToolTip": "Forme\\Knjiznica.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T17:27:38.416Z",
+              "WhenOpened": "2025-10-28T21:55:57.392Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Posudba.cs",
-              "DocumentMoniker": "C:\\Users\\Dino\\Desktop\\Nova mapa\\Knjiznica\\Model\\Posudba.cs",
-              "RelativeDocumentMoniker": "Model\\Posudba.cs",
-              "ToolTip": "C:\\Users\\Dino\\Desktop\\Nova mapa\\Knjiznica\\Model\\Posudba.cs",
-              "RelativeToolTip": "Model\\Posudba.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T17:25:52.381Z",
-              "EditorCaption": ""
             }
           ]
         }
