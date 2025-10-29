@@ -28,5 +28,11 @@ namespace Knjiznica.Forme
             Ucenici formaUcenici = new Ucenici(this.kontekst);
             formaUcenici.ShowDialog();
         }
+
+        private void knjigeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Knjige formaknjige = new Knjige(this.kontekst);
+            formaknjige.ShowDialog();
+        }
     }
 }

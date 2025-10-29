@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forme\DetaljiKnjige.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DetaljiKnjige.Designer.cs">
+      <DependentUpon>DetaljiKnjige.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forme\DetaljiUcenika.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     <Compile Include="Model\Ucenik.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forme\DetaljiKnjige.resx">
+      <DependentUpon>DetaljiKnjige.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forme\DetaljiUcenika.resx">
       <DependentUpon>DetaljiUcenika.cs</DependentUpon>
     </EmbeddedResource>

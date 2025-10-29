@@ -45,6 +45,8 @@ namespace Knjiznica.Forme
                 tbAdresa.Text = this.Ucenik.Adresa;
                 tbTelefon.Text = this.Ucenik.Telefon;
                 cbRazred.Text = this.Ucenik.Razred.ToString();
+
+               
             }
         }
 
@@ -57,9 +59,10 @@ namespace Knjiznica.Forme
             }
             else
             {
-                if(this.Ucenik == null)
+                if (this.Ucenik == null)
                 {
                     this.Ucenik = new Ucenik();
+                }
                     this.Ucenik.OIB = tbOIB.Text;
                     this.Ucenik.Ime = tbIme.Text;
                     this.Ucenik.Prezime = tbPrezime.Text;
@@ -74,4 +77,5 @@ namespace Knjiznica.Forme
             
         }
     }
-}
+
+

@@ -1,5 +1,4 @@
-﻿using Knjiznica.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,14 +9,21 @@ using System.Windows.Forms;
 
 namespace Knjiznica.Forme
 {
-    public partial class Knjige : Form
+    public partial class DetaljiKnjige : Form
     {
-        public PodatkovniKontekst kontekst;
-        public Knjige(PodatkovniKontekst kontekst)
+        public DetaljiKnjige()
         {
             InitializeComponent();
+        }
 
-            this.kontekst = kontekst;
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DetaljiKnjige_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

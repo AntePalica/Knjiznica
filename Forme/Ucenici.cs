@@ -61,5 +61,18 @@ namespace Knjiznica.Forme
                 }
             }
         }
+
+        private void btnObrisi_Click(object sender, EventArgs e)
+        {
+            if(lbUcenici.SelectedItems == null)
+            {
+                MessageBox.Show("molim te odaberi ucenika");
+            }
+            else
+            {
+                this.kontekst.BrisiUcenika((Ucenik)lbUcenici.SelectedItem);
+                OsvjeziUcenike();
+            }
+        }
     }
 }

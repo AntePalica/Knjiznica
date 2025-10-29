@@ -71,6 +71,7 @@
             this.btnObrisi.TabIndex = 4;
             this.btnObrisi.Text = "Obrisi";
             this.btnObrisi.UseVisualStyleBackColor = true;
+            this.btnObrisi.Click += new System.EventHandler(this.btnObrisi_Click);
             // 
             // label1
             // 
