@@ -45,7 +45,7 @@ namespace Knjiznica.Forme
 
         private void btnUredi_Click(object sender, EventArgs e)
         {
-            if(lbUcenici.SelectedItems == null)
+            if(lbUcenici.SelectedItem == null)
             {
                 MessageBox.Show("Molim te odaberi uceniak");
             }
