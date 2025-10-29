@@ -11,3 +11,4 @@ C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.csproj.CoreCompileInputs.cac
 C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.exe
 C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.pdb
 C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.Forme.DetaljiUcenika.resources
+C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.Forme.DetaljiKnjige.resources

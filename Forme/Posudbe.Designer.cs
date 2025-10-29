@@ -164,6 +164,7 @@
             this.Controls.Add(this.lbUcenici);
             this.Name = "Posudbe";
             this.Text = "Posudbe";
+            this.Load += new System.EventHandler(this.Posudbe_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -20,5 +20,10 @@ namespace Knjiznica.Forme
         {
 
         }
+
+        private void Posudbe_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

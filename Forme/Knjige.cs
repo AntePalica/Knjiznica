@@ -19,5 +19,60 @@ namespace Knjiznica.Forme
 
             this.kontekst = kontekst;
         }
+
+        private void Knjige_Load(object sender, EventArgs e)
+        {
+            OsvjeziKnjige();
+        }
+        private void OsvjeziKnjige()
+        {
+            Helper.PrikaziListuULB<Knjiga>(this.kontekst.knjige,lbKnjige );
+        }
+
+        private void btnDodaj_Click(object sender, EventArgs e)
+        {
+            DetaljiKnjige detaljiknjige = new DetaljiKnjige();
+            
+            if(detaljiknjige.ShowDialog() == DialogResult.OK)
+            {
+                this.kontekst.DodajKnjigu(detaljiknjige.Knjiga);
+                OsvjeziKnjige();
+            }
+
+            
+        }
+
+        private void btnUredi_Click(object sender, EventArgs e)
+        {
+            if(lbKnjige.SelectedItems==null)
+            {
+                MessageBox.Show("molim te odaberi knjigu");
+            }
+            else
+            {
+                DetaljiKnjige detaljiknjige = new DetaljiKnjige();
+                detaljiknjige.Knjiga = (Knjiga)lbKnjige.SelectedItem;
+
+                if(detaljiknjige.ShowDialog()== DialogResult.OK)
+                {
+                    this.kontekst.SpremiKnjige();
+                    OsvjeziKnjige();
+                }
+
+            }
+        }
+
+        private void btnObrisi_Click(object sender, EventArgs e)
+        {
+            if (lbKnjige.SelectedItems == null)
+            {
+                MessageBox.Show("molim te odaberi knjigu");
+            }
+            else
+            {
+                this.kontekst.BrisiKnjigu((Knjiga)lbKnjige.SelectedItem);
+                OsvjeziKnjige();
+            }
+        }
     }
 }
