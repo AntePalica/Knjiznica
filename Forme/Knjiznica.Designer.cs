@@ -65,6 +65,7 @@
             this.btnPosudi.TabIndex = 1;
             this.btnPosudi.Text = "Posudi";
             this.btnPosudi.UseVisualStyleBackColor = true;
+            this.btnPosudi.Click += new System.EventHandler(this.btnPosudi_Click);
             // 
             // btnObrisi
             // 

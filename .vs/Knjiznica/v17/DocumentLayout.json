@@ -1,87 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Dino\\Desktop\\Knjiznica\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|c:\\users\\dino\\desktop\\knjiznica\\model\\podatkovnikontekst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|solutionrelative:model\\podatkovnikontekst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|c:\\users\\dino\\desktop\\knjiznica\\forme\\posudbe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|solutionrelative:forme\\posudbe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|c:\\users\\dino\\desktop\\knjiznica\\forme\\posudbe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|solutionrelative:forme\\posudbe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|c:\\users\\dino\\desktop\\knjiznica\\model\\posudba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{023BD65B-9E25-465D-9E50-69BEB77F29E2}|Knjiznica.csproj|solutionrelative:model\\posudba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Posudba.cs",
-              "DocumentMoniker": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Model\\Posudba.cs",
-              "RelativeDocumentMoniker": "Model\\Posudba.cs",
-              "ToolTip": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Model\\Posudba.cs",
-              "RelativeToolTip": "Model\\Posudba.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T00:43:11.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Posudbe.cs",
-              "DocumentMoniker": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\Posudbe.cs",
-              "RelativeDocumentMoniker": "Forme\\Posudbe.cs",
-              "ToolTip": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\Posudbe.cs",
-              "RelativeToolTip": "Forme\\Posudbe.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T00:43:08.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PodatkovniKontekst.cs",
-              "DocumentMoniker": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Model\\PodatkovniKontekst.cs",
-              "RelativeDocumentMoniker": "Model\\PodatkovniKontekst.cs",
-              "ToolTip": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Model\\PodatkovniKontekst.cs",
-              "RelativeToolTip": "Model\\PodatkovniKontekst.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwDIAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T00:36:21.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Posudbe.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\Posudbe.cs",
-              "RelativeDocumentMoniker": "Forme\\Posudbe.cs",
-              "ToolTip": "C:\\Users\\Dino\\Desktop\\Knjiznica\\Forme\\Posudbe.cs [Design]",
-              "RelativeToolTip": "Forme\\Posudbe.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T00:36:17.094Z",
-              "EditorCaption": " [Design]"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

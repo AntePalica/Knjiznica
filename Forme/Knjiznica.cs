@@ -21,6 +21,11 @@ namespace Knjiznica.Forme
         private void frmKnjiznica_Load(object sender, EventArgs e)
         {
             kontekst = new PodatkovniKontekst();
+            OsvjeziPosudbe();
+        }
+        private void OsvjeziPosudbe()
+        {
+            Helper.PrikaziListuULB<Posudba>(this.kontekst.posudbe, lbPosudbe);
         }
 
         private void uceniciToolStripMenuItem_Click(object sender, EventArgs e)
@@ -33,6 +38,16 @@ namespace Knjiznica.Forme
         {
             Knjige formaknjige = new Knjige(this.kontekst);
             formaknjige.ShowDialog();
+        }
+
+        private void btnPosudi_Click(object sender, EventArgs e)
+        {
+            DetaljiPosudbe detaljiPosudbe = new DetaljiPosudbe(this.kontekst);
+            if (detaljiPosudbe.ShowDialog() == DialogResult.OK)
+            {
+                this.kontekst.DodajPosudbu(detaljiPosudbe.Posudba);
+                OsvjeziPosudbe();
+            }
         }
     }
 }

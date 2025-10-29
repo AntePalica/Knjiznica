@@ -20,6 +20,7 @@ namespace Knjiznica.Model
         {
             ucenici = UcitajUcenike();
             knjige = UcitajKnjige();
+            posudbe = UcitajPosudbe();
         }
 
         public void DodajKnjigu(Knjiga knjiga)
