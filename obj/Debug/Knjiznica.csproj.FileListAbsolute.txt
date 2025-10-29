@@ -12,3 +12,17 @@ C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.exe
 C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.pdb
 C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.Forme.DetaljiUcenika.resources
 C:\Users\Dino\Desktop\Knjiznica\obj\Debug\Knjiznica.Forme.DetaljiKnjige.resources
+C:\Users\Ucenik5.UCENIK5KAB27\Desktop\Knjiznica\bin\Debug\Knjiznica.exe
+C:\Users\Ucenik5.UCENIK5KAB27\Desktop\Knjiznica\bin\Debug\Knjiznica.pdb
+C:\Users\Ucenik5.UCENIK5KAB27\Desktop\Knjiznica\obj\Debug\Knjiznica.csproj.AssemblyReference.cache
+C:\Users\Ucenik5.UCENIK5KAB27\Desktop\Knjiznica\obj\Debug\Knjiznica.Forme.DetaljiKnjige.resources
+C:\Users\Ucenik5.UCENIK5KAB27\Desktop\Knjiznica\obj\Debug\Knjiznica.Forme.DetaljiUcenika.resources
+C:\Users\Ucenik5.UCENIK5KAB27\Desktop\Knjiznica\obj\Debug\Knjiznica.Forme.Knjige.resources
+C:\Users\Ucenik5.UCENIK5KAB27\Desktop\Knjiznica\obj\Debug\Knjiznica.Forme.frmKnjiznica.resources
+C:\Users\Ucenik5.UCENIK5KAB27\Desktop\Knjiznica\obj\Debug\Knjiznica.Forme.DetaljiPosudbe.resources
+C:\Users\Ucenik5.UCENIK5KAB27\Desktop\Knjiznica\obj\Debug\Knjiznica.Forme.Ucenici.resources
+C:\Users\Ucenik5.UCENIK5KAB27\Desktop\Knjiznica\obj\Debug\Knjiznica.Properties.Resources.resources
+C:\Users\Ucenik5.UCENIK5KAB27\Desktop\Knjiznica\obj\Debug\Knjiznica.csproj.GenerateResource.cache
+C:\Users\Ucenik5.UCENIK5KAB27\Desktop\Knjiznica\obj\Debug\Knjiznica.csproj.CoreCompileInputs.cache
+C:\Users\Ucenik5.UCENIK5KAB27\Desktop\Knjiznica\obj\Debug\Knjiznica.exe
+C:\Users\Ucenik5.UCENIK5KAB27\Desktop\Knjiznica\obj\Debug\Knjiznica.pdb

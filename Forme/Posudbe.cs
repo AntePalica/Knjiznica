@@ -67,6 +67,8 @@ namespace Knjiznica.Forme
                 this.Posudba.knjiga = (Knjiga)lbKnjige.SelectedItem;
                 this.Posudba.DatumPosudbe = dtpDatumPosudbe.Value;
                 this.Posudba.BrojDana = (int)nudBRDana.Value;
+
+                this.DialogResult = DialogResult.OK;
             }
         }
     }

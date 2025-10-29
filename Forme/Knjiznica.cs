@@ -49,5 +49,40 @@ namespace Knjiznica.Forme
                 OsvjeziPosudbe();
             }
         }
+
+        private void btnUredi_Click(object sender, EventArgs e)
+        {
+            if(lbPosudbe.SelectedItem == null)
+            {
+                MessageBox.Show("Molim te odaberi posudbu:");
+            }
+            else
+            {
+                DetaljiPosudbe detaljiPosudbe = new DetaljiPosudbe(this.kontekst);
+                detaljiPosudbe.Posudba = (Posudba)lbPosudbe.SelectedItem;
+
+                if (detaljiPosudbe.ShowDialog() == DialogResult.OK);
+                {
+                    this.kontekst.spremiPosudbe();
+                    OsvjeziPosudbe();
+                }
+            }
+        }
+
+        private void btnObrisi_Click(object sender, EventArgs e)
+        {
+            if(lbPosudbe.SelectedItem == null)
+            {
+                MessageBox.Show("Molim te odaberi posudbu:");
+
+            }
+            else
+            {
+                this.kontekst.BrisiPosudbu((Posudba)lbPosudbe.SelectedItem);
+                OsvjeziPosudbe();
+            }
+            
+            
+        }
     }
 }
